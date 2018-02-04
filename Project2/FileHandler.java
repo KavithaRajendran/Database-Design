@@ -20,10 +20,7 @@ public class FileHandler {
         RandomAccessFile binaryFile;
         try {
             binaryFile = new RandomAccessFile(fileName, "rw");
-            //calculate page size
-            //int currentPages=(int)binaryFile.length()/pageSize;
-            //pageNumber = currentPages+1;
-            //System.out.println("New page number:"+pageNumber);
+            
             //offset should be in begining of the page
             int offset = pageSize*(pageNumber-1);
             //System.out.println("header starting at:"+offset);
