@@ -1,4 +1,4 @@
-# Database-Design
+# DatabaseDesign
 Project 1 - Library Management System
 -------------------------------------
 This SQL programming project involves the creation of a database host application that interfaces with a backend SQL database implementing a Library Management System. 
