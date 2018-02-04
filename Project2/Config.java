@@ -1,3 +1,9 @@
+/**
+* Description:
+*   Default page size is set to 512
+*
+* Author - kavitha rajendran
+**/
 public class Config{
 
     public int pageSize=512;
